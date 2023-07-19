@@ -25,7 +25,7 @@ An unhandled exception of type 'System.ArgumentOutOfRangeException' occurred in 
 
 
 ## Simulation
-Open de appsettings.json file located in the ZZZOracleExample.App.SomeEventHandlerWorker folder and change the following environments variables
+Open the appsettings.json file located in the ZZZOracleExample.App.SomeEventHandlerWorker folder and change the following environments variables
 - ConnectionStrings__CoreDbContext: Database address
 - Z.EntityFramework.Extensions: License of zzzproject
 
@@ -35,7 +35,7 @@ Then execute the ZZZOracleExample.App.SomeEventHandlerWorker project with ``dotn
 
 
 ## Further technical details
-Microsoft.EntityFrameworkCore: 7.0.7
-Z.EntityFramework.Extensions.EFCore: 7.22.3
-Oracle.EntityFrameworkCore: 7.21.9
-Database: Oracle 19.11.0.0.0
+- Microsoft.EntityFrameworkCore: 7.0.7
+- Z.EntityFramework.Extensions.EFCore: 7.22.3
+- Oracle.EntityFrameworkCore: 7.21.9
+- Database: Oracle 19.11.0.0.0
